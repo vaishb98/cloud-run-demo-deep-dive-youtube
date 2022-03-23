@@ -27,3 +27,5 @@ steps:
     - '--allow-unauthenticated'
 images:
 - 'us-east1-docker.pkg.dev/$PROJECT_ID/my-docker-images-repo/svchelloworld'
+options:
+ logging: CLOUD_LOGGING_ONLY
